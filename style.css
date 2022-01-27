@@ -1,4 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 .header{
     width: 100%;
-    height: 30px;
+    height: 80px;
+    background-color: blue;
+    display: flex;
+    
 }
+.logo{
+    display: flex;
+    width: 45%;
+}
+.logo #img{
+    width: 70px;
+    height: 70px;
+    margin-left: 25px;
+}
+
+.logo h1{
+    margin: 27px 0px 0px 3px;
+}
+ .nav{
+    border: 2px solid black;
+    width: 100%;
+ }
+.nav ul{
+   display: inline-flex;
+   
+}
+
+.nav ul li{
+margin: 40px 60px;
+text-align: center;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 
+/* ul-float,height 
+
+ul li-displayinline,margin,list style
+ul li a-textdecoration, fornweight
+(pseudo selector)ul li align-self: hover
+
+bunner
+background url-where you can put in a link to an image
+background repeat
+classic way-classic way to center a div(position-absolute top 50,left 50%,transform-translate)
+
+align items,ilign content display-centering a div
+
+button-border radius(x,x,o,x)-basically focusing on the vertices */
