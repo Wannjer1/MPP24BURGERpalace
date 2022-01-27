@@ -13,7 +13,6 @@
     width: 100%;
     height: 85px;
     display: flex;
-    background-color: purple;
 }
 
 .logo{
@@ -97,7 +96,19 @@
     height: 600px;
     margin-top: 40px;
     margin-left: 60px;
+}
 
+.cont2{
+    background-color: purple;
+    width: 100%;
+    height: 23em;
+}
+
+.cont2 #D1{
+    border: 1 px solid black;
+    align-items: center;
+
+}
 
 
  
