@@ -173,11 +173,60 @@
     box-shadow:3px solid black;
 }
  
+.decker{
+    width: 100%;
+    height: 35em;
+    display: flex;
+    background-color:
+}
 
+#decker{
+    text-align: center;
+    padding: 20px;
+    width: 35%;
+    height: 100%;
+}
 
+#decker h2{
+    margin-top:30%;
+    font-weight: bolder;
+    font-size: 2.5em;
+}
 
+#decker p{
+    margin-top: 40px;
+}
 
+#decker2{
+    width: 100%;
+    height: 100%;
+    float:right;
+    padding: 40px;
+}
 
+.apps{
+    width: 100%;
+    height: 40em;
+    background-color: #f6b400;
+    display: flex;
+}
+
+#apps{
+    text-align: justify;
+    margin-top: 20%;
+    margin-left: 5%;
+    width: 50%;
+
+}
+
+#apps h2{
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+#apps2{
+    width: 50%;
+}
 
 
 
