@@ -131,6 +131,16 @@
     text-align: center;
 }
 
+.menu{
+    padding: 20px 0;
+    display: flex;
+    text-align: center;
+}
+
+#menu1{
+    width: 100%;
+    background-color: brown;
+}
  
 
 
