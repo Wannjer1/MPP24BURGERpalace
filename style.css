@@ -228,9 +228,41 @@
     width: 50%;
 }
 
+.last{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
 
+#last1{
+    width: 25%;
+    display: flex;
+    padding: 50px 0 0 30px;
+}
 
+#last1 h2{
+    margin: 30px 0 0 0;
+}
 
+#last2{
+    width: 30%;
+    padding: 20px 0 0 20px;
+}
+
+#last2 h2{
+    font-weight: bolder;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#last2 ul{
+    text-align: left;
+}
+
+#last2 ul li{
+    list-style: none;
+    margin: 10px;
+}
 
 
 /* 
