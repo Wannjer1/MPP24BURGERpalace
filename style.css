@@ -132,19 +132,24 @@
 }
 
 .menu{
-    padding: 40px 0;
     text-align: center;
     border-bottom: 2px solid black;
+    margin-top: 10%;
+    padding: 0;
 }
 
-#menu1{
+.menu #menu1{
     width: 100%;
-    margin-top: 2em;
+    border-bottom: 2px solid orange;
+}
+
+.menu #menu1 a{
+    color: black;
 }
 
 .menu2{
     display: flex;
-    margin-top: 40px;
+    margin-top: 0px;
     padding: 30px;
 }
 
