@@ -81,10 +81,10 @@
     
 .section1 .tagline #button1{
         border-radius:20px 20px 0 20px;
-        margin: 40px 50px 0 120px;
-        padding: 15px;
+        margin: 40px 0px 0 120px;
+        padding: 12px 15px 12px 15px;
         background-color: orange;
-        font-weight: bold;
+        font-weight: bolder;
     }
         
 .section1 .img2{
@@ -286,21 +286,21 @@
     height: 50px;
     display: flex;
     justify-content:space-between;
-    padding: 0;
 }
 
 #f1{
-   background-color: aqua;
+    padding-left: 20px;
 }
 
-#f2 {
-    background-color: blueviolet;
+#f2 a{
+    margin: 3px;
+    background-color: white;
+    color: black;
 }
 
-#f3 {
-    background-color: chartreuse;
+#f3{
+    padding-right: 20px;
 }
-
 
 
 
