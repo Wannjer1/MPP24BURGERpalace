@@ -7,7 +7,6 @@
     width: 100%;
     height:110vh;
     background: linear-gradient(100deg,transparent 50%,orange 50%);
-
 }
 
 .header{
@@ -106,6 +105,7 @@
     width: 100%;
     height: 500px;
     display: flex;
+    justify-content: space-between;
 }
 
 .cont2 #D1{
@@ -137,6 +137,7 @@
     border-bottom: 2px solid black;
     margin-top: 10%;
     padding: 0;
+    justify-content: space-between;
 }
 
 .menu #menu1{
@@ -151,15 +152,32 @@
 .menu2{
     display: flex;
     margin-top: 0px;
-    padding: 30px;
+    justify-content: space-between;
+    
 }
 
 .menu2 .menucont{
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 35px;
     padding: 40px;
     margin: 30px;
-    box-shadow:3px  black;
+    
+}
+
+.menu2 .menucont h4{
+    margin: 20px;
+    font-size: larger;
+}
+
+.bucks{
+    float: left;
+    margin-top: 20px;
+}
+
+.cart{
+    float: right;
+    margin-top: 20px;
+    width: 30px;
 }
 
 .menu3{
@@ -167,13 +185,18 @@
 }
 
 .menu3 .menucont{
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 35px;
     padding: 40px;
     margin: 30px;
     box-shadow:3px solid black;
 }
- 
+
+.menu3 .menucont h4{
+    margin: 20px;
+    font-size: larger;
+}
+
 .decker{
     width: 100%;
     height: 35em;
@@ -200,8 +223,12 @@
 #decker2{
     width: 100%;
     height: 100%;
-    float:right;
+
     padding: 40px;
+}
+
+#decker2 .imgA{
+    float: right;
 }
 
 .apps{
@@ -215,7 +242,8 @@
     text-align: justify;
     margin-top: 20%;
     margin-left: 5%;
-    width: 50%;
+    width: 40%;
+    height: 100%;
 
 }
 
@@ -224,8 +252,10 @@
     font-size: 2em;
 }
 
-#apps2{
-    width: 50%;
+#B{
+    width: 60%;
+    height: 100%;
+   /* image fails to load-check*/
 }
 
 .last{
@@ -304,6 +334,7 @@
     height: 50px;
     display: flex;
     justify-content:space-between;
+    
 }
 
 #f1{
