@@ -134,6 +134,7 @@
 .menu{
     padding: 40px 0;
     text-align: center;
+    border-bottom: 2px solid black;
 }
 
 #menu1{
@@ -145,11 +146,26 @@
     display: flex;
     margin-top: 40px;
     padding: 30px;
+}
+
+.menu2 .menucont{
     border: 1px solid black;
+    border-radius: 35px;
+    padding: 40px;
+    margin: 30px;
+    box-shadow:3px  black;
 }
 
 .menu3{
     display: flex;
+}
+
+.menu3 .menucont{
+    border: 1px solid black;
+    border-radius: 35px;
+    padding: 40px;
+    margin: 30px;
+    box-shadow:3px solid black;
 }
  
 
