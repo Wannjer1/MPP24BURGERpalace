@@ -263,23 +263,41 @@
     list-style: none;
     margin: 10px;
 }
-.maincont{
-    display: inline;
+.maincont h2{
+    text-align: justify;
+    margin-top: 15%;
 }
 
-/* #cont{
-    border: 1px solid black;
+.A{
     display: inline-flex;
-    height: 20%;
-    width: 120%;
+    margin-top: 20px;
+    width: 100%;
+    height: 35px;
+    float: left;
+    border: 1px solid black;
+}
+
+#cont{
+    width: 70%;
+    height: 100%;
+    text-align: center;
+}
+
+#cont p{
+    margin-top: 4px;
 }
 
 #cont1{
-    width: 40%;
-    height: 10%;
-    background-color: #f6b400;
-    
-} */
+    width: 35%;
+    height: 100%;
+    background-color: orange;
+    color: white;
+}
+
+#cont1 p{
+    margin-top: 4px;
+}
+
 
 .footer{
     width: 100%;
