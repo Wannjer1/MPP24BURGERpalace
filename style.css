@@ -132,14 +132,24 @@
 }
 
 .menu{
-    padding: 20px 0;
-    display: flex;
+    padding: 40px 0;
     text-align: center;
 }
 
 #menu1{
     width: 100%;
-    background-color: brown;
+    margin-top: 2em;
+}
+
+.menu2{
+    display: flex;
+    margin-top: 40px;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.menu3{
+    display: flex;
 }
  
 
