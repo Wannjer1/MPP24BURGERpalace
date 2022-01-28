@@ -22,7 +22,7 @@
 }
 
 .logo #img {
-    width: 80px;
+    width: 85px;
     height: 80px;
     margin-left: 25px;
 }
@@ -80,9 +80,9 @@
     }
     
 .section1 .tagline #button1{
-        border-radius:4em 4em 4em 0 4em;
+        border-radius:20px 20px 0 20px;
         margin: 40px 50px 0 120px;
-        padding: 20px;
+        padding: 15px;
         background-color: orange;
         font-weight: bold;
     }
