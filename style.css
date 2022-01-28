@@ -99,17 +99,37 @@
 }
 
 .cont2{
-    background-color: purple;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding:20px;
     width: 100%;
-    height: 23em;
+    height: 500px;
+    display: flex;
 }
 
 .cont2 #D1{
-    border: 1 px solid black;
-    align-items: center;
-
+    border: 2px solid black;
+    border-radius: 2em;
+    padding: 20px;
+    margin:100px 20px 80px 10px;
+    text-align: center;
 }
 
+.cont2 #D2{
+    border-radius: 2em;
+    border:2px solid black;
+    padding: 20px;
+    margin:80px 20px 50px 20px;
+    text-align: center;
+}
+
+.cont2 #D3{
+    border-radius: 2em;
+    border: 2px solid black; 
+    padding: 20px;
+    margin:100px 20px 80px 10px;
+    text-align: center;
+}
 
  
 
