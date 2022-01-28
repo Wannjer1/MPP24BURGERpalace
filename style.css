@@ -3,10 +3,11 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.maincont{
+#maincont{
     width: 100%;
-    height:110vh;
-    background: linear-gradient(180deg,transparent 56%,yellow);
+    height:100vh;
+    background: linear-gradient(100deg,transparent 50%,orange 50%);
+
 }
 
 .header{
@@ -21,8 +22,8 @@
 }
 
 .logo #img {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     margin-left: 25px;
 }
 
@@ -177,7 +178,6 @@
     width: 100%;
     height: 35em;
     display: flex;
-    background-color:
 }
 
 #decker{
@@ -263,6 +263,45 @@
     list-style: none;
     margin: 10px;
 }
+.maincont{
+    display: inline;
+}
+
+/* #cont{
+    border: 1px solid black;
+    display: inline-flex;
+    height: 20%;
+    width: 120%;
+}
+
+#cont1{
+    width: 40%;
+    height: 10%;
+    background-color: #f6b400;
+    
+} */
+
+.footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    padding: 0;
+}
+
+#f1{
+   background-color: aqua;
+}
+
+#f2 {
+    background-color: blueviolet;
+}
+
+#f3 {
+    background-color: chartreuse;
+}
+
+
 
 
 /* 
